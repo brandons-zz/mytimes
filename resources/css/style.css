@@ -1,0 +1,103 @@
+div{
+  display: block;
+}
+
+/* Navigation & Header */
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 80px;
+  border-bottom: 1px solid black;
+  background-color: white;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 70px;
+  height: 60px;
+  margin-right: 12px;
+}
+
+.logo span {
+  color:MediumAquamarine;
+}
+
+.nav {
+  padding-right: 40px;
+  display: block;
+}
+
+.nav a {
+  color:black;
+  padding: 20px 10px;
+}
+
+/* Main Content & Body */
+
+.main-content {
+  padding-top:70px;
+  display:flex;
+
+}
+
+.content-left {
+  flex-basis:630px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  border: 1px solid black;
+}
+
+.content-middle {
+  flex-basis:300px;
+  border: 1px solid black;
+}
+
+.content-right {
+  flex-basis:240px;
+  border: 1px solid black;
+}
+
+.main-image-content {
+  background-image: url(../images/img-story-main.png);
+  width: 630px;
+  margin-top: 0;
+  font-size: 40px;
+  text-align: left;
+  color:white;
+}
+
+p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+.content-left-stories {
+  display: flex;
+}
+
+.small-story-image1{
+  background-image: url(../images/img-story-2.png);
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.small-story-image2 {
+  background-image: url(../images/img-story-3.png);
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
